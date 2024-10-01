@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas en html</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 15px;
+        }
+    </style>
+
+    <style>
+        #t2{
+            width: 100%;
+            background-color: darkkhaki
+            ;
+            border: solid red;
+        }
+        #t2 tr:nth-child(even){
+            background-color: rgb(141, 140, 87) ;            
+        }
+        #t2 tr:nth-child(odd){
+            background-color: rgb(71, 71, 43) ;
+        }
+        #t2 th{
+            color: brown;
+            background-color: blueviolet;
+        }    
+    </style>
+</head>
+<body>
+    <h1>Tablas</h1>
+    <table style="width: 100%;"> 
+     <tr> 
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Edad</th>
+    </tr>
+    <tr>
+        <td>Adrián</td>
+        <td>Gimenez</td>
+        <td>19</td>
+    </tr>
+    <tr>
+        <td>Maia</td>
+        <td>Adorno</td>
+        <td>19</td>
+    </tr>
+    </table>
+
+    <h1>Tabla 2</h1>
+    <table id="t2"> 
+     <tr> 
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Edad</th>
+    </tr>
+    <tr>
+        <td>Adrián</td>
+        <td>Gimenez</td>
+        <td>19</td>
+    </tr>
+    <tr>
+        <td>Maia</td>
+        <td>Adorno</td>
+        <td>19</td>
+    </tr>
+    </table>
+
+</body>
+</html>
